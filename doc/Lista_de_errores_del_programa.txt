@@ -1,0 +1,24 @@
+Error 0: El formato de la imagen de entrada no es compatible con el programa.
+
+Error 1: La imagen que desea abrir no existe o no se encuentra en el directorio junto al ejecutable.
+
+Error 2: No se ha detectado un filtro válido.
+
+Error 3: Formato de imagen de salida no válido
+
+Error 4: 
+
+Error 5: 
+
+Error 6: (Error BMP) No se pudo abrir el archivo para su escritura.
+
+Error 7: (Error BMP) El archivo BMP no se encontró.
+
+Error 8: (Error BMP) Valor de tipo inválido.
+
+Error 9: (Error BMP) Profundidad de bits inválida.
+
+Error 10: (Error BMP) Tamaño de BIH inválido.
+
+Error 11: (Error BMP) No existe igualdad entre los tamaños lógico y físico del mapa de bits.
+

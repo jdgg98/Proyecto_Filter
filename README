@@ -1,0 +1,94 @@
+PROYECTO CERO: MANIPULADOR DE IMAGENES DIGITALES Y EFECTOS EN IMAGENES DIGITALES CREADO POR EL GRUPO 1 PARA EL CURSO ESTRUCTURAS ABSTRACTAS DE ALGORITMOS
+Y DATOS PARA INGENIERÍA. AUTORES: ANDRÉS CORRALES VARGAS Y JAFET GUTIERREZ GUEVARA
+
+#########################################################################################################################################################
+
+PARA GENERAR EL EJECUTABLE SE RECOMIENDA VER INSTALL CONTIGUO AL README. NO PODRÁ USAR EL PROGRAMA SIN HABER COMPILADO EL PROGRAMA PREVIAMENTE.
+
+#########################################################################################################################################################
+
+Link para encontrar las imágenes de prueba: https://www.dropbox.com/sh/5r9jxfzopl1ef0m/AACuvzt_J0wZr9HjeckaY3XOa?dl=0
+
+#########################################################################################################################################################
+
+IMÁGENES COMPATIBLES CON EL PROGRAMA:
+
+ESTE PROGRAMA SOPORTA LOS SIGUIENTES FORMATOS DE IMÁGENES DIGITALES:
+
+-PPM TIPO P3 y P6
+-BMP DE 24 BITS
+-PNG
+-JPG
+-GIF
+
+PARA VER MÁS INFORMACIÓN SOBRE ESTOS FORMATOS Y SU IMPLEMENTACIÓN EN EL PROGRAMA SE RECOMIENDA VER EL REPORTE Y LA DOCUMENTACIÓN, EN LA CARPETA ./doc
+
+#########################################################################################################################################################
+
+¿COMO USAR EL PROGRAMA?
+
+PARA LA UTILIZACIÓN DE ESTE PROGRAMA SERÁ NECESARIO EL USO DE LA TERMINAL.
+
+1.      DIRIGIRSE A ./bin A DONDE SEA QUE HAYA GUARDADO LA CARPETA PRINCIPAL DEL PROGRAMA.
+
+2.      UNA VEZ DENTRO, LA FORMA CORRECTA DE EJECUTAR EL PROGRAMA ES LA SIGUIENTE: ./proyecto0 imagen.formato_entrada filtro formato_salida
+
+3.      EL PRIMER ARGUMENTO ES LA IMAGEN DE ENTRADA. UN EJEMPLO SERÍA playa.jpg o montaña.png
+
+4.      EL SEGUNDO ARGUMENTO ES EL FILTRO A APLICAR Y ES UNA O VARIAS LETRAS QUE DESCRIBEN EL FILTRO. LAS LETRAS QUE PUEDE PONER DEPENDIENDO DEL FILTRO
+        PUEDEN SER LASS SIGUIENTES:
+        
+        fg: FILTRO GAUSSIANO (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO FG)
+        fstd: FILTRO DESVIACIÓN ESTÁNDAR (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO FSTD)
+        ed: DETECCIÓN DE BORDES (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO ED)
+        mb: DIFUMINADO DE MOVIMIENTO (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO MB)
+        syp: RUIDO SAL Y PIMIENTA (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO SYP)
+        e: EROSION (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO E)
+        d: DILATACIÓN (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO D)
+        i: INVERSIÓN DE COLOR (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO I)
+        g: ESCALA DE GRISES (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO G)
+        n: NINGUN FILTRO (TAMBIÉN PUEDE PONERLO EN MAYÚSCULAS COMO N)
+        
+        PARA VER MÁS INFORMACIÓN SOBRE LA IMPLEMENTACIÓN DE LOS FILTROS Y SU EXPLICACIÓN, ASÍ COMO LA EXPLICACIÓN DE LOS ALGORITMOS, DIRIJASE A ./doc PARA 
+        VER DOCUMENTACIÓN Y REPORTE. CUALQUIER OTRO FILTRO NO ES ACEPTADO POR EL PROGRAMA.
+
+5.      EL TERCER ARGUMENTO ES EL FORMATO DE SALIDA. SIMPLEMENTE DEBE PONER CUALQUIERA DE LOS 5 FORMATOS COMPATIBLES CON EL PROGRAMA, ESTOS PUEDEN SER:
+        png
+        jpg
+        gif
+        ppm
+        bmp
+        
+        CUALQUIER OTRO FORMATO NO ES ACEPTADO POR EL PROGRAMA
+        
+6.      LOS FILTROS DE 
+
+
+#########################################################################################################################################################
+        
+DURANTE LA EJECUCIÓN DEL PROGRAMA, HAY ERRORESO EXCEPECIONES QUE SE CAPTURAN ANTES DE QUE EL PROGRAMA COLAPSE. LOS ERRORES SON LOS SIGUIENTES:
+
+Error 0: El formato de la imagen de entrada no es compatible con el programa.
+
+Error 1: La imagen que desea abrir no existe o no se encuentra en el directorio junto al ejecutable.
+
+Error 2: No se ha detectado un filtro válido.
+
+Error 3: Formato de imagen de salida no válido
+
+Error 4: 
+
+Error 5: 
+
+Error 6: (Error BMP) No se pudo abrir el archivo para su escritura.
+
+Error 7: (Error BMP) El archivo BMP no se encontró.
+
+Error 8: (Error BMP) Valor de tipo inválido.
+
+Error 9: (Error BMP) Profundidad de bits inválida.
+
+Error 10: (Error BMP) Tamaño de BIH inválido.
+
+Error 11: (Error BMP) No existe igualdad entre los tamaños lógico y físico del mapa de bits.
+
